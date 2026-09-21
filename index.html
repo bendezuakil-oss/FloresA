@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flores Amarillas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="ring"></div><p>Preparando la sorpresa...</p></div>
+<canvas id="particles"></canvas>
+
+<section class="cover" id="cover">
+  <img src="assets/portada-girasoles.png" alt="Feliz Día de las Flores Amarillas">
+  <button id="open" class="image-button" aria-label="Ver sorpresa"></button>
+</section>
+
+<section class="envelope-screen" id="envScreen">
+  <div class="envelope" id="env">
+    <div class="back"></div>
+    <div class="letter"><i></i><strong>Un pequeño detalle</strong><small>para alegrar este día</small></div>
+    <div class="flap"></div><div class="front"></div><div class="seal">✦</div>
+  </div>
+  <div class="hint">Toca el sobre para abrirlo</div>
+</section>
+
+<section class="final" id="final">
+  <div class="card">
+    <span class="tape l"></span><span class="tape r"></span>
+    <img src="assets/flores-amarillas.png" alt="Flores amarillas">
+  </div>
+  <button id="again">Volver a ver</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
